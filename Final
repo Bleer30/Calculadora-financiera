@@ -29,8 +29,9 @@ namespace Calculadora
                   double resultado;
                   resultado = (monto*(0.11))+(monto/mes);
                   Console.WriteLine("El monto a pagar es: "+ resultado);
-                  Console.WriteLine("Desea continuar? y/n");
+                  Console.WriteLine("Desea continuar? y /n");
                   continuar=Console.ReadLine();
+                  Console.Clear();
                   break;
                 case 2: 
                     double monto1 , mes1;
@@ -41,6 +42,9 @@ namespace Calculadora
                     double resultado1;
                     resultado1 = (monto1*(0.23))+(monto1/mes1);
                     Console.WriteLine("El monto a pagar es: "+ resultado1);
+                    Console.WriteLine("Desea continuar? y /n");
+                    continuar=Console.ReadLine();
+                    Console.Clear();
                     break;
                 case 3: 
                     double monto2 , mes2;
@@ -51,6 +55,9 @@ namespace Calculadora
                     double resultado2;
                     resultado2 = (monto2*(0.18))+(monto2/mes2);
                     Console.WriteLine("El monto a pagar es: "+ resultado2);
+                    Console.WriteLine("Desea continuar? y /n");
+                    continuar=Console.ReadLine();
+                    Console.Clear();
                     break;
                 
                 
