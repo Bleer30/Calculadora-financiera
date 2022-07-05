@@ -65,6 +65,7 @@ namespace Calculadora
             }//switch
            }//Fin del do
            while(continuar != "n");
+           Console.WriteLine("Cambio");
         }//Fin del main
         //Console.ReadLine();//Necesario
     }//Fin de la class
